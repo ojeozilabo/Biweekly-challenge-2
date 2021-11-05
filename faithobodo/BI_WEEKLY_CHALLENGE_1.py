@@ -1,18 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
+# In[34]:
 
 
 #printing users name and age
-name = input()
+name = input("type your name here: ")
 
-age = input()
+age = int(input("type your age here: "))
 
 print("my name is "+ name +", my age is "+ str(age))
 
 
-# In[10]:
+# In[35]:
 
 
 #users date of birth
@@ -21,11 +21,11 @@ dob = year- int(age)
 print(dob)
 
 
-# In[177]:
+# In[36]:
 
 
 #users age group
-age = 27
+# age =27
 if (age <1):
     Group = "Infant"
 elif (age >=1) & (age <=11):
@@ -39,7 +39,7 @@ else:
 print(Group)
 
 
-# In[61]:
+# In[37]:
 
 
 #users age a decade ago
@@ -48,7 +48,7 @@ decade_ago =int(age)- decade
 decade_ago
 
 
-# In[71]:
+# In[38]:
 
 
 # what the users age will be for the next 50 years
@@ -56,16 +56,16 @@ for i in range (10,60,10):
     print(i)
 
 
-# In[89]:
+# In[39]:
 
 
-current_age =26
+current_age_in_previous_year = int(input())
 current_year =2020
 new_age = []
 new_year = []
 
 for i in range(10,60,10):
-    new_a = current_age + i
+    new_a = current_age_in_previous_year + i
     new_age.append(new_a)
     print(new_age)
     new_y = current_year + i
@@ -73,19 +73,19 @@ for i in range(10,60,10):
     print(new_year)
 
 
-# In[86]:
+# In[40]:
 
 
 new_age
 
 
-# In[90]:
+# In[41]:
 
 
 new_year
 
 
-# In[104]:
+# In[42]:
 
 
 for i in range(len(new_age)):
@@ -94,7 +94,7 @@ for i in range(len(new_age)):
     print(c,d)
 
 
-# In[132]:
+# In[43]:
 
 
 import numpy as np
@@ -102,14 +102,14 @@ next_fifty_age = np.array=([36,46,56,66,77])
 next_fifty_age
 
 
-# In[133]:
+# In[44]:
 
 
 next_fifty_year = np.array =([2030,2040,2050,2060,2070])
 next_fifty_year
 
 
-# In[219]:
+# In[45]:
 
 
 #printing the final statement
@@ -131,4 +131,16 @@ eigth_concat = "In "+str(new_year[3])+", You'll be "+str(new_age[3])+" years old
 print(eigth_concat)
 ninth_concat = "In "+str(new_year[4])+", You'll be "+str(new_age[4])+" years old"
 print(ninth_concat)
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
