@@ -37,7 +37,7 @@ else:
   cat = 'Infants'
 print('As you are {} years old, you are an {}'.format(age, cat))
 
-#Calculating what the users age in the would be in the next 5 decade
+#CALCULATING USERS AGE IN 5 DECADE
 new_age = []
 new_year = []
 for i in range(10,61, 10):
